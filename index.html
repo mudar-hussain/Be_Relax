@@ -1,1 +1,89 @@
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Be Relax</title>
+  </head>
+  <body>
+    <div class="app">
+      
+      <!-- Time Display -->
+      <div class="time">
+        <button data-time="300">5 min</button>
+        <button data-time="600">10 min</button>
+        <button data-time="1800">30 min</button>
+      </div>
+
+      <!-- Player -->
+      <div class="player">
+        <h1 class="heading">Be Relax</h1>
+
+        <audio src="./audio/waves.mp3" class="song"></audio>
+        <img src="./svg/play.svg" alt="play" class="play" />
+
+        <svg
+          class="track-outline"
+          width="453"
+          height="453"
+          viewBox="0 0 453 453"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="226.5"
+            cy="226.5"
+            r="216.5"
+            stroke="white"
+            stroke-width="20"
+          />
+        </svg>
+        <svg
+          class="moving-outline"
+          width="453"
+          height="453"
+          viewBox="0 0 453 453"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="226.5"
+            cy="226.5"
+            r="216.5"
+            stroke="#018EBA"
+            stroke-width="20"
+          />
+        </svg>
+
+        <h3 class="time-display">05 : 00</h3>
+      </div>
+
+      <!-- Themes -->
+      <div class="theme" id="themes">
+        <button id="waves">Waves</button>
+        <audio src="./audio/waves.mp3" class="waves"></audio>
+
+        <button id="forest" class="forest" src="./audio/forest.mp3">
+          Forest
+        </button>
+        <audio src="./audio/forest.mp3" class="forest"></audio>
+
+        <button id="rain" class="rain" src="./audio/rain.mp3">Rain</button>
+        <audio src="./audio/rain.mp3" class="rain"></audio>
+
+        <button id="park" class="park" src="./audio/park.mp3">Park</button>
+        <audio src="./audio/park.mp3" class="park"></audio>
+
+        <button id="stream" class="stream" src="./audio/stream.mp3">
+          Stream
+        </button>
+        <audio src="./audio/stream.mp3" class="stream"></audio>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
