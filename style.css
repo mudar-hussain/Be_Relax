@@ -1,1 +1,83 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url("./img/waves.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .app {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .heading {
+    position: absolute;
+    color: white;
+    font-size: 420%;
+    top: -5%;
+  }
+  .time,
+  .theme,
+  .player {
+    height: 80%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .player {
+    position: relative;
+  }
+  
+  .player svg {
+    position: absolute;
+    height: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    pointer-events: none;
+  }
+  
+  .play {
+    height: 12%;
+    cursor: pointer;
+  }
+  .time-display {
+    position: absolute;
+    bottom: 12%;
+    color: white;
+    font-size: 50px;
+  }
+  
+  .background {
+    position: fixed;
+    background-color: #cccccc;
+    z-index: -1;
+    background-size: cover;
+    height: auto;
+  }
+  .time button,
+  .theme button {
+    color: white;
+    width: 30%;
+    height: 10%;
+    background: none;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 22px;
+    transition: all 0.5s ease;
+  }
+  .time button:hover,
+  .theme button:hover {
+    color: black;
+    background-color: white;
+  }
+  
