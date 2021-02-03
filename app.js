@@ -35,6 +35,7 @@ const app = () => {
   const timeDisplay = document.querySelector(".time-display");
   //Select Sound
   const timeSelect = document.querySelectorAll(".time button");
+  
   //Get the Length of the outline
   const outlineLength = outline.getTotalLength();
 
