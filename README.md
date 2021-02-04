@@ -3,6 +3,9 @@ A Meditation website which assists users to relax leaving the stress.
 + Set timer to play a relaxing audio for desired duration
 + Different themes are available, you can set according to your mood
 
+![homePage](https://github.com/mudar-hussain/Be_Relax/blob/main/img/homePage.png?raw=true)
+
+
 ## How to run?
 Clone the repository
 `git clone https://github.com/mudar-hussain/Be_Relax`<br>
